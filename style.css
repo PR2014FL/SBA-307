@@ -1,5 +1,5 @@
 body{
-    color:white;
+    color:rgb(200, 209, 76);
     background-image: url('./Images/pexels-mudassir-ali-2680270.jpg');
     /* background-repeat: no-repeat;  
     background-size: cover;       
@@ -18,15 +18,17 @@ body{
   
 }
 nav {
-  display: flex;
+  width: 1080px;
+    display: flex;
   justify-content: space-around;
   align-content: center;
-  padding: 20px;
+  margin: 20px 10vw;
 }
 b {
     font-family: 'Bebas Neue', sans-serif;
     font-style:oblique;
     font-size: xx-large;
+    letter-spacing: .05em;
 }
 nav a {
   color: inherit;
@@ -38,9 +40,38 @@ nav > div {
     display: flex;
     align-items: center;
 }
+
+.navCards {
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    height: 300px;
+    width: 1080px;
+    justify-content: space-around;
+    align-items: space-between;
+    margin: 40px 10vw;
+}
+
+.navCards img {
+    height: 200px;
+}
 .navCards a {
     text-decoration: none;
     color: inherit;
     font-family: 'Bebas Neue', sans-serif;
     font-size:x-large;
 }
+.card3 {
+    width: 267px;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+
+}
+footer {
+   margin-left: 50%;
+}
+
+/* CSS for Contact Me page */
