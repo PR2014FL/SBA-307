@@ -1,77 +1,91 @@
-body{
-    color:rgb(200, 209, 76);
-    background-image: url('./Images/pexels-mudassir-ali-2680270.jpg');
-    /* background-repeat: no-repeat;  
+body {
+  color: rgb(200, 209, 76);
+  background-image: url("./Images/pexels-mudassir-ali-2680270.jpg");
+  /* background-repeat: no-repeat;  
     background-size: cover;       
     background-position: center;   */
 }
 
 .carouselTravel {
-    position: relative;
-    left: 10%;
-    width:1080px;
+  position: relative;
+  left: 10%;
+  width: 1080px;
 }
 
 .d-block {
   /* box-sizing: border-box; */
   height: 400px;
-  
 }
 nav {
   width: 1080px;
-    display: flex;
+  display: flex;
   justify-content: space-around;
   align-content: center;
   margin: 20px 10vw;
 }
 b {
-    font-family: 'Bebas Neue', sans-serif;
-    font-style:oblique;
-    font-size: xx-large;
-    letter-spacing: .05em;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: oblique;
+  font-size: xx-large;
+  letter-spacing: 0.05em;
 }
 nav a {
   color: inherit;
   text-decoration: none;
   margin-left: 20px;
-  
 }
 nav > div {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .navCards {
-    box-sizing: border-box;
-    display: flex;
-    flex: 1;
-    height: 300px;
-    width: 1080px;
-    justify-content: space-around;
-    align-items: space-between;
-    margin: 40px 10vw;
+  box-sizing: border-box;
+  display: flex;
+  flex: 1;
+  height: 300px;
+  width: 1080px;
+  justify-content: space-around;
+  align-items: space-between;
+  margin: 40px 10vw;
 }
 
 .navCards img {
-    height: 200px;
+  height: 200px;
 }
 .navCards a {
-    text-decoration: none;
-    color: inherit;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size:x-large;
+  text-decoration: none;
+  color: inherit;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: x-large;
 }
 .card3 {
-    width: 267px;
-    display: flex;
-    flex-wrap:wrap;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
-
+  width: 267px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
 }
 footer {
-   margin-left: 50%;
+  margin-left: 50%;
 }
 
 /* CSS for Contact Me page */
+.contactMe {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactMe legend {
+    font-family: "Bebas Neue", sans-serif;
+    font-style: oblique;
+    font-size: xx-large;
+    letter-spacing: 0.05em;
+}
+.contactMe label {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: x-large;
+    letter-spacing: 0.05em;
+}
