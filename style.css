@@ -78,14 +78,18 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.contactMe div {
+    border: solid rgb(200, 209, 76);
+    padding: 20px;
+}
 .contactMe legend {
-    font-family: "Bebas Neue", sans-serif;
-    font-style: oblique;
-    font-size: xx-large;
-    letter-spacing: 0.05em;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: oblique;
+  font-size: xx-large;
+  letter-spacing: 0.05em;
 }
 .contactMe label {
-    font-family: "Bebas Neue", sans-serif;
-    font-size: x-large;
-    letter-spacing: 0.05em;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: large;
+  letter-spacing: 0.06em;
 }
