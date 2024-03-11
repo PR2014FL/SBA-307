@@ -1,10 +1,7 @@
 body {
   color: rgb(200, 209, 76);
   background-image: url("./Images/pexels-mudassir-ali-2680270.jpg");
-  /* background-repeat: no-repeat;  
-    background-size: cover;       
-    background-position: center;   */
-}
+ }
 
 .carouselTravel {
   position: relative;
@@ -13,8 +10,7 @@ body {
 }
 
 .d-block {
-  /* box-sizing: border-box; */
-  height: 400px;
+    height: 400px;
 }
 nav {
   width: 1080px;
@@ -37,7 +33,6 @@ nav a {
 nav > div {
   display: flex;
   align-items: center;
-  /* margin-left: 200px; */
 }
 
 .navCards {
