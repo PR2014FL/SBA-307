@@ -21,7 +21,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-content: center;
-  margin: 20px 10vw;
+  margin: 20px 0px;
 }
 b {
   font-family: "Bebas Neue", sans-serif;
@@ -37,6 +37,7 @@ nav a {
 nav > div {
   display: flex;
   align-items: center;
+  /* margin-left: 200px; */
 }
 
 .navCards {
@@ -52,20 +53,31 @@ nav > div {
 
 .navCards img {
   height: 200px;
+  width: 100%;
+  padding: 5px;
 }
 .navCards a {
   text-decoration: none;
   color: inherit;
   font-family: "Bebas Neue", sans-serif;
   font-size: x-large;
+  transition-property: font-size, color;
+}
+.navCards a:hover {
+    font-size: xx-large;
+    color: tomato;
 }
 .card3 {
-  width: 267px;
+    width: 267px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
+  transition: border 2s;
+}
+.card3:hover {
+border: 5px solid tomato;
 }
 footer {
   margin-left: 50%;
@@ -77,10 +89,18 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 50px 0px;
 }
 .contactMe div {
     border: solid rgb(200, 209, 76);
-    padding: 20px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px
+}
+
+.contactMe img {
+height: 600px;
 }
 .contactMe legend {
   font-family: "Bebas Neue", sans-serif;
