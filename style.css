@@ -1,19 +1,24 @@
 body {
   color: rgb(200, 209, 76);
   background-image: url("./Images/pexels-mudassir-ali-2680270.jpg");
+  width: 100%;
  }
 
 .carouselTravel {
-  position: relative;
-  left: 10%;
-  width: 1080px;
+    display: flex;
+    justify-content: center;
+  width: 100%;
 }
 
 .d-block {
     height: 400px;
 }
+.navContainer {
+    display: flex;
+    justify-content: center;
+}
 nav {
-  width: 1080px;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-content: center;
@@ -40,10 +45,10 @@ nav > div {
   display: flex;
   flex: 1;
   height: 300px;
-  width: 1080px;
+  width: 1450px;
   justify-content: space-around;
   align-items: space-between;
-  margin: 40px 10vw;
+  margin: 40px 10vw 40px 225px;
 }
 
 .navCards img {
@@ -69,18 +74,26 @@ nav > div {
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
-  transition: border 2s;
+  transition: border .5s;
 }
 .card3:hover {
-border: 5px solid tomato;
+border: 8px solid tomato;
+color: tomato;
 }
 footer {
-  margin-left: 50%;
+  text-align: center;
+  margin-top: 20px;
 }
 
 /* CSS for Contact Me page */
+
+.navDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
 .contactMe {
-  height: 80vh;
+  /* height: 80vh; */
   display: flex;
   justify-content: center;
   align-items: center;

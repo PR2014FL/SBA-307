@@ -34,9 +34,7 @@
             align-self: center;
         }
 
-        table,
-        th,
-        td {
+        table, th, td, tr {
             padding: 15px;
             text-align: center;
             border: 2px solid aqua;
@@ -55,6 +53,10 @@
             width: 240px;
             height: 240px;
             align-self: center;
+        }
+        .subscribeToday {
+            display: flex;
+            justify-content: center;
         }
     </style>
 </head>
@@ -105,7 +107,18 @@
             </Table>
         </div>
     </div>
+<!-- Subscribe to newsletter -->
 
+<div class="subscribeToday">
+    <div class="formSubscribe">
+<h3>Subscribe to my travel newsletter!</h3>
+<form action="#" method="post">
+    <input type="email" placeholder="Enter your email address..." size="40">
+    <input type="submit" Value="Subscribe">
+</form>
+</div>
+
+</div>
 
     <!-- Footer -->
     <footer>
